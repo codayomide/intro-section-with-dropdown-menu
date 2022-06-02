@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/codayomide/frontpage-design-project)
-- Live Site URL: [](https:codayomide-frontpage-design-project.netlify.app)
+- Solution URL: [https://github.com/codayomide/frontpage-design-project](https://github.com/codayomide/frontpage-design-project)
+- Live Site URL: [https:codayomide-frontpage-design-project.netlify.app](https:codayomide-frontpage-design-project.netlify.app)
 
 <!-- ## My process -->
 
