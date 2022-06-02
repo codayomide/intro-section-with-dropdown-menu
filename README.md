@@ -7,7 +7,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  <!-- - [Links](#links) -->
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   <!-- - [What I learned](#what-i-learned)
@@ -30,10 +30,10 @@ Users should be able to:
 
 ![](./screenshot.jpg) -->
 
-<!-- ### Links
+### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Solution URL: [Add solution URL here](https://github.com/codayomide/frontpage-design-project)
+- Live Site URL: [Add live site URL here](https:codayomide-frontpage-design-project.netlify.app)
 
 <!-- ## My process -->
 
