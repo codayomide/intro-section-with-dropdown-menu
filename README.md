@@ -26,9 +26,9 @@ Users should be able to:
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+<!-- ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpg) -->
 
 <!-- ### Links
 
