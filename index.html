@@ -14,20 +14,37 @@
       <div id="container">
         <header>
           <nav id="navbar">
-            <div id="logo-container">
-              <img src="./images/logo.svg">
+            <div id="header-imgs-div">
+              <div id="logo-container">
+                <img src="./images/logo.svg">
+              </div>
+              <div id="nav-menu-div">
+                <button id="nav-menu-btn">
+                  <img src="./images/icon-menu.svg">
+                </button>
+              </div>
             </div>
             
-            <div id="nav-btns-container" style="flex-grow: 1;">
-              <button class="nav-btns">Features</button>
-              <button class="nav-btns">Company</button>
-              <button class="nav-btns">Career</button>
-              <button class="nav-btns">About</button>
-            </div>
-
-            <div id="sign-btns">
-              <button>Login</button>
-              <button>Register</button>
+            <div id="header-btns-container">
+              <div id="overlay-color"></div>
+              
+              <div id="overlay-nav">
+                <div id="close-btn-div">
+                  <button id="close-btn">
+                    <img src="./images/icon-close-menu.svg">
+                  </button>
+                </div>
+                <div id="nav-btns-container">
+                  <button class="nav-btns">Features</button>
+                  <button class="nav-btns">Company</button>
+                  <button class="nav-btns">Career</button>
+                  <button class="nav-btns">About</button>
+                </div>
+                <div id="sign-btns">
+                  <button>Login</button>
+                  <button>Register</button>
+                </div>
+              </div>
             </div>
           </nav>
         </header>
@@ -60,6 +77,8 @@
             <img src="./images/image-hero-desktop.png" id="hero-image">
           </section>
         </main>
+
+        <script src="./index.js"></script>
       </div>
 
 
