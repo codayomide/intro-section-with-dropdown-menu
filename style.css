@@ -30,7 +30,12 @@ body {
 
     border: solid 2px transparent;
     border-radius: 15px;
-    padding: 10px 15px;
+    padding: 5px 15px;
+}
+
+#navbar button:hover {
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
 }
 
 #header-imgs-div {
@@ -42,12 +47,14 @@ body {
     padding: 30px 20px 25px 40px;
 }
 
-#nav-menu-div {
+#nav-menu-div,
+#close-btn-div {
     width: 0%;
     overflow: hidden;
 }
 
-#nav-menu-div > button {
+#nav-menu-div > button,
+#close-btn {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -61,8 +68,9 @@ body {
 
 #header-btns-container {
     width: 100%;
-
     overflow: hidden;
+
+    transition: all 0.5s ease; 
 }
 
 #overlay-color {
