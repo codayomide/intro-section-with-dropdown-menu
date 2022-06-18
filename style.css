@@ -1,3 +1,9 @@
+:root {
+    --white: hsl(0, 0%, 98%);
+    --black: hsl(0, 0%, 8%);
+    --grey: hsl(0, 0%, 41%);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,7 +11,7 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 98%);
+    background-color: var(--white);
     font-family: "Epilogue", sans-serif;
 }
 
@@ -14,7 +20,7 @@ body {
     flex-direction: column;
 
     width: 100%;
-    max-height: 100em;
+    height: 100vh;
 }
 
 #navbar {
@@ -22,19 +28,23 @@ body {
 
     display: flex;
     flex-direction: row;
+    padding-top: 5px;
 }
 
 #navbar button {
+    width: auto;
     background-color: transparent;
-    color: hsl(0, 0%, 41%);
+    color: var(--grey);
+    font-weight: 700;
 
     border: solid 2px transparent;
     border-radius: 15px;
-    padding: 5px 15px;
+    margin: 5px 15px;
+
 }
 
 #navbar button:hover {
-    color: hsl(0, 0%, 8%);
+    color: var(--black);
     cursor: pointer;
 }
 
@@ -61,7 +71,7 @@ body {
 }
 
 #nav-menu-div:active {
-    background-color: hsl(0, 0%, 41%);
+    background-color: var(--grey);
     opacity: 0.3;
 }
 
@@ -74,7 +84,7 @@ body {
 }
 
 #overlay-color {
-    background-color: hsl(0, 0%, 8%);
+    background-color: var(--black);
     opacity: 0.6;
 
     width: 0%;
@@ -83,7 +93,7 @@ body {
 }
 
 #overlay-nav {
-    background-color: hsl(0, 0%, 98%);
+    background-color: var(--white);
     display: flex;
     flex-direction: row;
 
@@ -101,8 +111,55 @@ body {
     flex-direction: row;
 }
 
+#dropdown1,
+#dropdown2 {
+    background-color: var(--white);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px;
+    border-radius: 10px;
+    height: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+#dropdown1 a,
+#dropdown2 a {
+    color: var(--grey);
+    text-decoration: none;
+
+    display: block;
+    text-align: left;
+
+    padding: 5px;
+}
+
+#dropdown1 a > img,
+#dropdown2 a > img {
+    margin-right: 10px;
+}
+
+#dropdown1 a:hover,
+#dropdown2 a:hover {
+    color: var(--black);
+}
+
+#dropdown1.open,
+#dropdown2.open {
+    padding: 15px;
+    height: auto;
+}
+
 #sign-btns > button:last-child {
-    border: solid 2px hsl(0, 0%, 41%);
+    padding: 10px 15px;
+    margin: none;
+    border: solid 2px var(--grey);
+}
+
+#sign-btns > button:last-child:hover {
+    border: solid 2px var(--black);
 }
 
 #main {
@@ -139,22 +196,30 @@ body {
 }
 
 #info-section > div > p {
-    color: hsl(0, 0%, 41%);
+    color: var(--grey);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 #info-section > div > button {
-    background-color: hsl(0, 0%, 8%);
-    color: hsl(0, 0%, 98%);
+    background-color: var(--black);
+    color: var(--white);
 
-    border: solid 2px hsl(0, 0%, 8%);
+    border: solid 1px var(--black);
     border-radius: 10px;
     padding: 15px 25px;
     
     font-weight: 700;
     font-size: 18px;
     width: auto;
+    cursor: pointer;
+}
+
+#info-section > div > button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--grey);
+    
 }
 
 #image-section {
@@ -273,6 +338,11 @@ body {
 
     #nav-btns-container > button {
         text-align: start;
+    }
+
+    #dropdown1,
+    #dropdown2 {
+        box-shadow: none;
     }
 
     #info-section {
