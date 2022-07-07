@@ -8,13 +8,13 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+<!-- - [My process](#my-process)-->
+  - [Built with](#built-with) -->
   <!-- - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources) -->
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
 
@@ -43,6 +43,7 @@ Users should be able to:
 - CSS
 - Flexbox
 - CSS Grid
+- Vanilla JS
 
 <!-- ### What I learned
 
@@ -84,5 +85,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Frontend Mentor - [@codayomide](https://www.frontendmentor.io/profile/codayomide)
+- Github - [@codayomide](https://www.github.com/codayomide)
 
-## Acknowledgments
+<!-- ## Acknowledgments -->
