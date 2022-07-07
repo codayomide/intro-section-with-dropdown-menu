@@ -12,7 +12,11 @@
 
 body {
     background-color: var(--white);
-    font-family: "Epilogue", sans-serif;
+    font-family: 'Epilogue', sans-serif;
+}
+
+button {
+    font-family: 'Epilogue', sans-serif;
 }
 
 #container {
@@ -21,6 +25,7 @@ body {
 
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 #navbar {
@@ -35,7 +40,7 @@ body {
     width: auto;
     background-color: transparent;
     color: var(--grey);
-    font-weight: 700;
+    font-weight: 500;
 
     border: solid 2px transparent;
     border-radius: 15px;
@@ -89,7 +94,7 @@ body {
 
     width: 0%;
     margin: 0px;
-    padding: 0px;
+    padding: 0px
 }
 
 #overlay-nav {
@@ -99,6 +104,7 @@ body {
 
     padding: 20px 40px 20px 20px;
     width: 100%;
+    transition: all 0.5s ease; 
 }
 
 #nav-btns-container {
@@ -114,7 +120,7 @@ body {
 #dropdown1,
 #dropdown2 {
     background-color: var(--white);
-    display: block;
+    display: none;
     position: absolute;
     z-index: 1;
     margin-top: 10px;
@@ -150,6 +156,7 @@ body {
 #dropdown2.open {
     padding: 15px;
     height: auto;
+    display: block;
 }
 
 #sign-btns > button:last-child {
@@ -191,14 +198,14 @@ body {
 }
 
 #info-section > div > h1 {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 700;
 }
 
 #info-section > div > p {
     color: var(--grey);
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #info-section > div > button {
@@ -219,7 +226,10 @@ body {
     color: var(--black);
     background-color: var(--white);
     border-color: var(--grey);
-    
+}
+
+#info-section-client-div {
+    height: 80px;
 }
 
 #image-section {
@@ -273,9 +283,7 @@ body {
         
         position: fixed;
         right: 0;
-        left: 0;
         top: 0;
-        bottom: 0;
         z-index: 2;
     }
 
@@ -287,6 +295,11 @@ body {
     #logo-container {
         padding: 20px;
         width: auto;
+    }
+
+    #navbar button {
+        font-size: 18px;
+        margin: 5px 0px;
     }
 
     #nav-menu-div {
@@ -314,6 +327,7 @@ body {
     #close-btn-div {
         align-self: flex-end;
         width: auto;
+        padding: 20px 10px;
     }
 
     #close-btn {
@@ -336,6 +350,10 @@ body {
         flex-grow: 0;
     }
 
+    #sign-btns {
+        margin-top: 10px;
+    }
+
     #nav-btns-container > button {
         text-align: start;
     }
@@ -343,6 +361,17 @@ body {
     #dropdown1,
     #dropdown2 {
         box-shadow: none;
+        position: relative;
+        z-index: 0;
+
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #dropdown1 a,
+    #dropdown2 a {
+        padding: 10px;
     }
 
     #info-section {
@@ -354,7 +383,7 @@ body {
     }
 
     #info-section > div > h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     #info-section-client-div > img {

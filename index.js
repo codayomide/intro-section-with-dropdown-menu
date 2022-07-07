@@ -22,41 +22,15 @@ closeBtn.addEventListener("click", () => {
     navMenu.style.width = "0%";
 });
 
-// Object.values(dropdownBtns).forEach(btn => {
-//     let btnArrow = btn.children[0]
-//     let dropdown = btn.children[1]
-
-//     btn.addEventListener
-//         if(btnArrow.src === "./images/icon-arrow-down.svg") {
-//                 dropdown.style.padding = "15px";
-//                 dropdown.style.height = "auto";
-//                 btnArrow = "./images/icon-arrow-up.svg";
-//         } else {
-//                 dropdown.style.padding = "0%";
-//                 dropdown.style.height = "0%";
-//                 btnArrow = "./images/icon-arrow-down.svg";
-//         };
-// });
-
-// displayDropdown = () => {
-//     if(dropdownBtns.className == "open") {
-//         dropdown.style.padding = "15px";
-//         dropdown.style.height = "auto";
-//         btnArrow = "./images/icon-arrow-up.svg";
-//     } else {
-//         dropdown.style.padding = "0%";
-//         dropdown.style.height = "0%";
-//         btnArrow = "./images/icon-arrow-down.svg";
-//     };
-// }
-
 dropdownBtns1.onclick = () => {
     if (dropdown1.className == "open") {
         dropdown1.className = "";
+        // dropdown1.style.display = "block";
         dropdownArrow1.style.transform = "rotate(0deg)";
     } else {
         dropdown1.className = "open";
-        dropdownArrow1.style.transform = "rotate(180deg)";        
+        dropdownArrow1.style.transform = "rotate(180deg)";
+        // dropdown1.style.display = "none";        
     };
 }
 
@@ -64,8 +38,10 @@ dropdownBtns2.onclick = () => {
     if (dropdown2.className == "open") {
         dropdown2.className = "";
         dropdownArrow2.style.transform = "rotate(0deg)";
+        // dropdown2.style.display = "block";
     } else {
         dropdown2.className = "open";
-        dropdownArrow2.style.transform = "rotate(180deg)";        
+        dropdownArrow2.style.transform = "rotate(180deg)";
+        // dropdown2.style.display = "none";        
     };
 }
