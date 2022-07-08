@@ -42,7 +42,6 @@ Users should be able to:
 - HTML5
 - CSS
 - Flexbox
-- CSS Grid
 - Vanilla JS
 
 <!-- ### What I learned
