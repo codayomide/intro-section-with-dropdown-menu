@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/codayomide/frontpage-design-project](https://github.com/codayomide/frontpage-design-project)
-- Live Site URL: [https://codayomide.github.io/frontpage-design-project](https://codayomide.github.io/frontpage-design-project)
+- Solution URL: [https://github.com/codayomide/intro-section-with-dropdown-menu](https://github.com/codayomide/intro-section-with-dropdown-menu)
+- Live Site URL: [https://codayomide.github.io/intro-section-with-dropdown-menu](https://codayomide.github.io/intro-section-with-dropdown-menu/)
 
 <!-- ## My process -->
 
