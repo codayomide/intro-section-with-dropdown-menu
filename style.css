@@ -17,6 +17,7 @@ body {
 
 button {
     font-family: 'Epilogue', sans-serif;
+    transition: all 0.4s ease;
 }
 
 #container {
