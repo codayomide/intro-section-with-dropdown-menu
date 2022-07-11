@@ -80,7 +80,6 @@ button {
     opacity: 0.3;
 }
 
-
 #header-btns-container {
     width: 100%;
     overflow: hidden;
@@ -242,7 +241,7 @@ button {
     width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     #main {
         padding: 0px;
         
@@ -270,7 +269,7 @@ button {
     }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 900px) {
     #header-btns-container {
         display: grid;
         grid-template-columns: 40% 60%;
